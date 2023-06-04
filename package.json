@@ -1,0 +1,29 @@
+{
+  "name": "instagram_parsing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbassiriyus/instagram_parsing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbassiriyus/instagram_parsing/issues"
+  },
+  "homepage": "https://github.com/abbassiriyus/instagram_parsing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "puppeteer": "^20.5.0"
+  }
+}
